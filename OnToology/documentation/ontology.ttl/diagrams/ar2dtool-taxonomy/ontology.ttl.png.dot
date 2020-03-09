@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "https://w3id.org/saref#Device" "sd@en:Sensor" "sd@en:Device" "sd@en:Actuator" ; /*classes style*/
+	"sd@en:Sensor" -> "sd@en:Device" [ label = "rdfs:subClassOf" ];
+	"sd@en:Device" -> "https://w3id.org/saref#Device" [ label = "rdfs:subClassOf" ];
+	"sd@en:Actuator" -> "sd@en:Device" [ label = "rdfs:subClassOf" ];
+
+}

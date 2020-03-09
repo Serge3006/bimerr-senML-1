@@ -1,0 +1,109 @@
+{
+  "@context" : {
+    "UnitOfMeasure" : {
+      "@id" : "https://w3id.org/saref#UnitOfMeasure"
+    },
+    "isControlledByDevice" : {
+      "@id" : "https://w3id.org/saref#isControlledByDevice",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/elements/1.1/created"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "baseSum" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#baseSum"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "https://w3id.org/saref#FeatureOfInterest"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/saref#hasValue"
+    },
+    "sum" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#sum"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Measurement" : {
+      "@id" : "https://w3id.org/saref#Measurement"
+    },
+    "baseValue" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#baseValue"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "name" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#name"
+    },
+    "isMeasurementOf" : {
+      "@id" : "https://w3id.org/saref#isMeasurementOf",
+      "@type" : "@id"
+    },
+    "hasTimeStamp" : {
+      "@id" : "https://w3id.org/saref#hasTimeStamp"
+    },
+    "isMeasuredByDevice" : {
+      "@id" : "https://w3id.org/saref#isMeasuredByDevice",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "updateTime" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#updateTime"
+    },
+    "makesMeasurement" : {
+      "@id" : "https://w3id.org/saref#makesMeasurement",
+      "@type" : "@id"
+    },
+    "baseTime" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#baseTime"
+    },
+    "Property" : {
+      "@id" : "https://w3id.org/saref#Property"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isMeasuredIn" : {
+      "@id" : "https://w3id.org/saref#isMeasuredIn",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "baseName" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#baseName"
+    },
+    "relatesToProperty" : {
+      "@id" : "https://w3id.org/saref#relatesToProperty",
+      "@type" : "@id"
+    },
+    "Actuator" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#Actuator"
+    },
+    "Device" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#Device"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "baseVersion" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#baseVersion"
+    },
+    "Sensor" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/sensor-data#Sensor"
+    }
+  }
+}

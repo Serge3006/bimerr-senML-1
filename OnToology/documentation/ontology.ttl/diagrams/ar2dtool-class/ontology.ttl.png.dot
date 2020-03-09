@@ -1,0 +1,30 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "https://w3id.org/saref#UnitOfMeasure" "https://w3id.org/saref#Property" "https://w3id.org/saref#Measurement" "https://w3id.org/saref#FeatureOfInterest" ; /*classes style*/
+	"sd@en:" -> "sd@en:" [ label = ":preferredNamespaceUri" ];
+	"NULL" -> "xsd:integer" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#Measurement" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#UnitOfMeasure" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "xsd:string" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "xsd:dateTimeStamp" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#relatesToProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:name" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:float" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#hasValue" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:baseSum" [ label = "owl:onProperty" ];
+	"NULL" -> "https://w3id.org/saref#Property" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#isMeasuredIn" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:baseVersion" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:dateTime" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#hasTimeStamp" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:sum" [ label = "owl:onProperty" ];
+	"NULL" -> "https://w3id.org/saref#makesMeasurement" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:updateTime" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:baseValue" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:baseName" [ label = "owl:onProperty" ];
+	"NULL" -> "https://w3id.org/saref#FeatureOfInterest" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://w3id.org/saref#isMeasurementOf" [ label = "owl:onProperty" ];
+	"NULL" -> "sd@en:baseTime" [ label = "owl:onProperty" ];
+
+}
